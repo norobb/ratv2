@@ -1,0 +1,61 @@
+# Core
+requests==2.31.0
+websocket-client==1.6.4
+cryptography==41.0.8
+pynput==1.7.6
+pillow==10.1.0
+psutil==5.9.6
+
+# Audio/Video
+opencv-python==4.8.1.78
+pyaudio==0.2.11
+sounddevice==0.4.6
+numpy==1.24.3
+
+# GUI Framework
+tkinter-tooltip==2.1.0
+customtkinter==5.2.0
+
+# System Integration
+pywin32==306; sys_platform == "win32"
+pyobjc-framework-Cocoa==10.0; sys_platform == "darwin"
+python-xlib==0.33; sys_platform == "linux"
+
+# File Operations
+watchdog==3.0.0
+send2trash==1.8.2
+
+# Network & Security
+scapy==2.5.0
+netifaces==0.11.0
+python-nmap==0.7.1
+
+# Utilities
+schedule==1.2.0
+configparser==6.0.0
+python-dotenv==1.0.0
+structlog==23.2.0
+
+# Keylogging & Input
+keyboard==0.13.5
+mouse==0.7.1
+
+# Screen Capture
+mss==9.0.1
+pyautogui==0.9.54
+
+# Registry (Windows)
+winreg; sys_platform == "win32"
+
+# Process Management
+wmi==1.5.1; sys_platform == "win32"
+
+# Compression
+zipfile38==0.0.3
+py7zr==0.20.6
+
+# Steganography
+stegano==0.10.2
+
+# Anti-Detection
+pyinstaller==6.2.0
